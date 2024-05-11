@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio </title>
+</head>
+<body>
+
+    <div class="container">
+
+    <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name"> JALL </p>
+                <span></span>
+            </div>
+            <div class="nav-menu" id="MyNavMenu">
+                <ul class="nav-menu-list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link">Home</a>
+                        <div class="circel"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circel"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#project" class="nav-link">Projects</a>
+                        <div class="circel"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circel"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" onclick="window.location.href='assets/cv.pdf'">Download CV <i class="uil uil-file-plus-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="MyMenueFunction()"></i>
+            </div>
+        </nav>
+        
+
+
+    <!-- -------------- MAIN ---------------- -->
+   <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span> Jacob Abderrahmane Alaouchiche </span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm<span class="typedText"> An Engineer</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>
+                        turning ideas into innovation, fueled by a love for math and algorithms.
+                    </p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn" onclick="window.location.href='assets/cv.pdf'"> Hire Me</button>
+                    <button class="btn" onclick="window.location.href='assets/cv.pdf'"> CV <i class="uil uil-file-info-alt"></i></button>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/yaa_couub/"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+                    <a href="https://www.linkedin.com/in/yacoub-abderrahmane-alaouchiche-0a0346255/"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                    <a href="https://www.facebook.com/ya.coub.581"><div class="icon"><i class="uil uil-facebook-f"></i></div></a>
+                    <a href="https://github.com/jacoball22"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+                </div>
+                
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="assets/images/avatar.png" alt=avatar"">
+                </div>
+            </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+            <div class="top-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p>Welcome to my portfolio! I'm a fourth-year telecommunications and networking engineering student passionate about electronics. Ready to apply my skills and contribute to innovative projects.</p>
+                        <div class="about-btn">
+                            <button class="btn">Download CV<i class="uil uil-import"></i></button>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScipt</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Python</span>
+                            <span>C</span>
+                            <span>C++</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>software</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Matlab</span>
+                            <span>VScode</span>
+                            <span>HFSS</span>
+                            <span>Offices</span>
+                            <span>Proteus</span>
+                            <span>ARM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------- PROJECT BOX ---------------- -->
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Done</h3>
+                    <label>3+ Finished Internships</label>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-keyboard"></i>
+                    <h3>Completed</h3>
+                    <label>4+ mini Projects</label>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>Experiene</h3>
+                    <label>5+ months in the field</label>
+                </div>
+            </div>
+        </section>
+        <!-- -------------- CONTACT BOX ---------------- -->
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- -------------- footer ---------------- -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="Logo">
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#"><i class="uil uil-instagram"></i></a>
+                        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                        <a href="#"><i class="uil uil-github-alt"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 JALL. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+   </main>
+
+    </div>
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+   	<!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+	<!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
