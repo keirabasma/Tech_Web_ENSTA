@@ -1,0 +1,145 @@
+/* styles.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.side {
+    flex: 1 0 300px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.side img {
+    max-width: 150%;
+    border-radius: 8px;
+}
+
+.personal-info {
+    margin-top: 20px;
+}
+
+.main {
+    flex: 3 0 600px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.divider {
+    height: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-info, .contact-me {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-info h3, .contact-me h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.footer-info p, .contact-me p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.contact-me a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer-links {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #1e1e1e;
+    padding: 20px;
+    color: #fff;
+}
